@@ -1,0 +1,18 @@
+cache/
+# Virtual env
+venv/
+
+# Checkpoints and models
+wandb/
+yolov8n.pt
+
+# Data dumps
+data/raw/
+data/interim/
+data/processed/
+
+# Local caches
+*.log
+*.tmp
+
+.env
